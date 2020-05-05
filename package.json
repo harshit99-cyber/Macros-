@@ -1,0 +1,23 @@
+{
+  "name": "macros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@fridgerator/pynode": "^0.4.6",
+    "express": "^4.17.1",
+    "forever": "^2.0.0",
+    "nodemon": "^2.0.3",
+    "python-shell": "^1.0.8"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "nexe server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
